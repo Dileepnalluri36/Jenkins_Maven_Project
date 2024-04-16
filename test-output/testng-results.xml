@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-15T16:54:35 IST" name="Suite" finished-at="2024-04-15T16:54:42 IST" duration-ms="7362">
+    <groups>
+    </groups>
+    <test started-at="2024-04-15T16:54:35 IST" name="Test" finished-at="2024-04-15T16:54:42 IST" duration-ms="7362">
+      <class name="pom.Interview">
+        <test-method signature="EndToEnd()[pri:0, instance:pom.Interview@41a0aa7d]" started-at="2024-04-15T16:54:35 IST" name="EndToEnd" finished-at="2024-04-15T16:54:42 IST" duration-ms="7324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndToEnd -->
+      </class> <!-- pom.Interview -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
