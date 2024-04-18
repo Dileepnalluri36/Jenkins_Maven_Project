@@ -29,10 +29,10 @@ public class Interview {
 	@Test
 	public void sampleTest(String browserName) {
 		System.out.println("Parameter value is "+browserName);
-		if(browserName.contains("chrome")) {
+		if(browserName.equalsIgnoreCase("Chrome")) {
 			driver = new ChromeDriver();
 		}
-		else  if(browserName.contains("Edge")) {
+		else  if(browserName.equalsIgnoreCase("Edge")) {
 			driver = new EdgeDriver();
 		}
 		
